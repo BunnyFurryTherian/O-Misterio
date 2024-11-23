@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>O Misterio</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="carta-misterio.avif" alt="">
+            <p>A horas atras encontrei uma carta embaixo da minha mesa, não tinha escrito quem havia me enviado, apenas estava escrito "Me encontre em frente a escola a meia noite em ponto, venha sozinho e não deixe que ninguem saiba disso, ASS F". Estava com receio de ir e confesso que com um pouco de medo, mas a curiosidade falou mais alto.</p>
+             <button class="btn-proximo" data-proximo="1">Ir antes do horario</button> 
+             <button class="btn-proximo" data-proximo="2">Ir no horario combinado</button> 
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="escola-noite.jpg" alt="">
+            <p>Você chegou antes do horario marcado mas não viu ninguem la, apenas uma outra carta no local. Você se aproxima com cautela e pega a carta.</p>
+             <button class="btn-proximo" data-proximo="3">Pegar a carta</button> 
+             <button class="btn-proximo" data-proximo="4">Ir embora sem ver a carta</button> 
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="escola-noite.jpg" alt="">
+            <p>Você chegou no hoario marcado, nao havia ninguem no local somente uma carta no chão. Você olha ao redor e nao ha ninguem.</p>
+            <button class="btn-proximo" data-proximo="5">Pegar a carta</button> 
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ao abri-la você ve um papel e uma chave. No papel esta escrito: "Sua curiosidade falou mais alto não é? Bem, pegue esta chave e va ate a casa abandonada que fica a duas quadras da escola, em breve nos encontraremos, apenas confie em mim. ASS F.</p>
+            <button class="btn-proximo" data-proximo="6">Ir para a casa abandonada.</button> 
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você deixa a curiosidade de lado e vai embora, você nunca sabera o que havia na carta, e nem os misterios que te esperava,</p>
+            <button class="btn-proximo" data-proximo="7">Acabar a historia</button> 
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Ao abri-la você ve um papel e uma chave. Na carta esta escrito: "Sua curiosidade falou mais alto não é? Bem, pegue esta chave e va ate a casa abandonada que fica a duas quadras da escola, em breve nos encontraremos, apenas confie em mim. ASS F.</p>
+            <button class="btn-proximo" data-proximo="8">Ir para a casa abandonada.</button> 
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Ao chegar na casa não parece ter ninguem por perto, você pega a chave e abre a porta. Você usa a lanterna do celular para iluminar os comodos e ve apenas um corredor que liga aos outros comodos da casa.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pelo corredor</button> 
+        </div>
+        <div class="passo" id="passo-7">
+            <p></p>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Ao chegar na casa não parece ter ninguem por perto, você pega a chave e abre a porta. Você usa a lanterna do celular para iluminar os comodos e ve apenas um corredor que liga aos outros comodos da casa.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir pelo corredor</button> 
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Seguindo pelo corredor é posivel ver uma mesa de jantar, ela não perece estar suja, na verdade esta arrumada, e em cima dela tem um quadro e uma carta. No quadro tem uma foto sua com seu irmão mais velho que morreu em um acidente de carro a 1 ano atras, você nao tinha percebido mais hoje completa exatamnete um ano apos o acidente.</p>
+            <button class="btn-proximo" data-proximo="12">Pegar a carta</button> 
+        </div>
+        <div class="passo" id="passo-11">
+            <p>Seguindo pelo corredor é posivel ver uma mesa de jantar, ela não perece estar suja, na verdade esta arrumada, e em cima dela tem um quadro e uma carta. No quadro tem uma foto sua com seu irmão mais velho que morreu em um acidente de carro a 1 ano atras, você nao tinha percebido mais hoje completa exatamnete um ano apos o acidente.</p>
+            <button class="btn-proximo" data-proximo="14">Pegar a carta</button> 
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Na carta diz: "Oi, acho que você ja sabe quem sou eu, não é? Desculpa fazer todo esse misterio, so queria garantir que ninguem descobrisse isso, so te mandei essas cartas para dizer que estou vivo e bem, peço que não conte a ninguem por favor, tenho meus motivos para fazer isso espero que me entende. Te amo. ASS: F ou Filipe.</p>
+            <button class="btn-proximo" data-proximo="15">Guardar a carta e sair da casa</button> 
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Na carta diz: "Oi, acho que você ja sabe quem sou eu, não é? Desculpa fazer todo esse misterio, so queria garantir que ninguem descobrisse isso, so te mandei essas cartas para dizer que estou vivo e bem, peço que não conte a ninguem por favor, tenho meus motivos para fazer isso espero que me entende. Te amo. ASS: F ou Filipe.</p>
+            <button class="btn-proximo" data-proximo="16">Guardar a carta e sair da casa</button> 
+        </div>
+        <div class="passo" id="passo-15">
+            <img src="casa-abandonada.jpg" alt="">
+            <p>Uma sensação de felicidade e medo te atinge, por que ele fez isso? por que ele so me contou? de certa forma você sabe que você era a pessoa que ele mais confiava, você guarda a carta e segue para casa, mas antes se vira uma ultima vez para ver a casa e ve uma sombra estrando, você tem certeza que é seu irmão, mas mesmo assim segue seu caminho.</p>
+            <button class="btn-proximo" data-proximo="17">Finalizar a historia.</button> 
+        </div>
+        <div class="passo" id="passo-16">
+            <img src="casa-abandonada.jpg" alt="">
+            <p>Uma sensação de felicidade e medo te atinge, por que ele fez isso? por que ele so me contou? de certa forma você sabe que você era a pessoa que ele mais confiava, você guarda a carta e segue para casa, mas antes se vira uma ultima vez para ver a casa e ve uma sombra estrando, você tem certeza que é seu irmão, mas mesmo assim segue seu caminho.</p>
+            <button class="btn-proximo" data-proximo="18">Finalizar a historia.</button> 
+        </div>
+    </main>
+     <script src="script.js"></script>
+</body>
+</html>
